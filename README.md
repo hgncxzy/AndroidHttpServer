@@ -5,4 +5,4 @@
 此时，Android 设备作为单独的服务器使用，请求本地接口即可，端口可自定义。
 ### 多 Android 设备局域网通信
 需要同时启动 AndroidHttpServer 和 AndroidHttpClient 程序，并按照 AndroidHttpClient 程序中的步骤执行相关端口映射操作，
-即可在模拟器之间调试或者在真机之间调试。
+即可在模拟器之间调试或者在真机之间调试。具体步骤请参考[这里](https://github.com/hgncxzy/AndroidHttpClient)
