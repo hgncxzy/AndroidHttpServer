@@ -6,3 +6,5 @@
 ### 多 Android 设备局域网通信
 需要同时启动 AndroidHttpServer 和 AndroidHttpClient 程序，并按照 AndroidHttpClient 程序中的步骤执行相关端口映射操作，
 即可在模拟器之间调试或者在真机之间调试。具体步骤请参考[这里](https://github.com/hgncxzy/AndroidHttpClient)
+### 参考文章
+1. [Android上运行Http Server](https://blog.csdn.net/TurkeyCock/article/details/86555919)
