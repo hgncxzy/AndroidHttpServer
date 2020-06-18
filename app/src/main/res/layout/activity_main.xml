@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_test_local_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sendLocalGetRequest"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_test_local_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sendLocalPostRequest"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clearRequestResultText"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:textSize="14dp"
+        android:text="@string/test_step"
+        tools:ignore="SpUsage" />
+</LinearLayout>
